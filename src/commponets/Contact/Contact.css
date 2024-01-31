@@ -1,0 +1,184 @@
+
+      
+.Contact-main{
+    margin-top:7rem;
+    margin-bottom: 20px;
+   box-shadow: 0px 8px 17px 2px rgba(0, 0, 0, 0.281);
+   border-radius: 20px;
+   overflow: hidden;
+}      
+ .Contact{
+     display: flex;
+    justify-content: space-between;
+     padding: 20px;
+     background-color: whitesmoke;
+}
+ .Contact-titel>h1{
+   text-align: center;
+   color: rgb(236, 4, 4);
+ }
+ .Contact-titel>p{
+   background-color: black;
+   color: white;
+   text-align: center;
+   margin: auto;
+ }
+ .Contact-titel{
+   border-bottom: 1px solid rgba(47, 46, 46, 0.523);
+ }
+ .Contact-Left{
+   width: 40%;
+ }
+
+ .left-content{
+    display: flex;
+    padding: 20px;
+    
+ }
+ .Map{
+    
+    margin: auto;
+    width: 90%;
+    height:30rem;
+    border: none;
+ }
+
+
+ /* Contact-Right */
+
+ .Contact-Right{
+  
+   display: flex;
+   flex-direction: column;
+   width: 70%;
+ }
+ .Link-contaners{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content:space-evenly;
+   padding: 10px;
+   
+ }
+ 
+  .whatsappLink,
+  .emailLink,
+  .githubLink {
+      display: flex;
+      column-gap: 20px;
+    flex-wrap: wrap;
+     padding: 5px;
+     align-items: center;
+     width: 50%;
+    
+  }
+  .whatsapp-logo,.gmail-logo,.github-logo{
+     border-radius: 100%;
+  }
+  .whatsapp-logo{
+   width: 24%;
+  }
+  .gmail-logo{
+   width: 24%;
+  }
+  .github-logo{
+   width: 24%;
+  }
+.link-name:hover{
+   text-decoration: underline;
+}
+.link-name:active {
+  background-color: black;
+ color: white;
+}
+ 
+
+@media (max-width: 60rem) {
+.Contact {
+   flex-direction: column;
+   align-items: center;
+}
+.Contact-Left{
+ width: 100%;
+}
+ .Map {
+   margin: auto;
+    width: 100%;
+    height: 20rem;
+   
+ }
+ 
+
+}
+@media (max-width:51rem) {
+   
+    .Contact-Right{
+       width: 90%;
+    }
+   .link-name {
+      font-size: small;
+   }
+    
+}
+@media (max-width:40rem) {
+   .Contact-Right {
+         width: 80%;
+      }
+.Link-contaners{
+   flex-direction: column;
+}
+.whatsappLink,
+.emailLink,
+.githubLink {
+   flex-direction:row ;
+   align-items: center;
+   width: 70%;
+   column-gap: 10px;
+   flex-wrap: wrap;
+   
+}
+.link-name {
+   font-size: small;
+}
+
+}
+
+@media (max-width:30rem){
+   .Contact-Right {
+         /* border: 1px solid red; */
+         width: 100%;
+      }
+.whatsappLink,
+.emailLink,
+.githubLink {
+  width: 100%;
+}
+.link-name {
+   font-size: 10px;
+  
+}
+.Contact-titel>h1{
+  
+   font-size: 30px;
+}
+}
+@media (max-width:22rem) {
+.link-name {
+      font-size: 10px;
+     
+   }
+.Contact-titel>h1 {
+  
+   font-size: 22px;
+}
+}
+@media (max-width: 80rem) {
+   .Contact-main {
+      margin-top: 9rem;
+   }
+}
+@media (max-width: 39rem) {
+   .Contact-main{
+      margin-top: 5.5rem;
+   }
+}
