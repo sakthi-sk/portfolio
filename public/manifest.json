@@ -1,5 +1,5 @@
 {
-  "short_name": "React App",
+  "short_name": "sk",
   "name": "Create React App Sample",
   "icons": [
     {
@@ -8,11 +8,28 @@
       "type": "image/x-icon"
     },
     {
+      "src": "maskable.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose":"any maskable"
+      
+    },
+    {
       "src": "logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
+      "src": "logo256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+     {
+      "src": "logo384.png",
+      "type": "image/png",
+      "sizes": "384x384"
+    },
+     {
       "src": "logo512.png",
       "type": "image/png",
       "sizes": "512x512"
